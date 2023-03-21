@@ -1,0 +1,14 @@
+{
+  "name": "js-udemy",
+  "version": "0.0.1",
+  "description": "classes",
+  "main": "main.js",
+  "scripts": {
+    "test": "1"
+  },
+  "author": "vic",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}
