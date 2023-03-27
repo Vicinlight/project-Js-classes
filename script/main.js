@@ -29,11 +29,26 @@
 // answer[1] = prompt("What is your surname?", "");
 // answer[2] = prompt("What is your age?", "");
 
-const isChecked = true,
-    isClose = true;
+const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
 
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
 
-console.log(8 + 8 || 20);
+};
+
+const a = prompt("Один из последних просмотреных фильмов?"),
+    b = prompt("Оцените его."),
+    c = prompt("Один из последних просмотреных фильмов?"),
+    d = prompt("Оцените его.")
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
 
 
 
